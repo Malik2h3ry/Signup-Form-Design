@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.image
+{
+    position: fixed;
+    background-image: url(./0002.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.Signup
+{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-30%, -30%);
+    z-index: 99;
+    padding-top: 40px;
+    width: 350px;
+    height: 530px;
+    background-color: orange;
+    font-family: 'Poppins', sans-serif;
+    background: rgba(231, 139, 2, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    font-size: 15px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.Signup a
+{
+  margin-right: 50px;
+  margin-top: -10px;
+  padding: 6px 14px;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  font-size: larger;
+  color: yellow;
+  font-weight: bold;
+  
+}
+
+.Signup a:hover
+
+{
+    text-decoration-line: underline;
+    text-decoration-color: rgb(255, 1, 1);
+    text-decoration-thickness: 3px;
+    text-underline-position: under;
+}
+
+
+.Signup .btn3
+{
+  font-weight: 500;
+  font-size: 12px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: #ad5389;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  cursor: pointer;
+
+}
+
+.Signup .btn3:hover {
+  
+    background: green;
+    color: black;
+    font-weight: bold;
+}
+ 
+input[type="checkbox"]
+{
+    accent-color: rgb(0, 0, 0);
+
+}
+
+input[type="Username"]
+{
+    width: 80%;
+    height: 35px;
+    border-radius: 50px;
+    text-align: center;
+    border: none;
+
+}
+
+input[type="email"]
+{
+    width: 80%;
+    height: 35px;
+    border-radius: 50px;
+    text-align: center;
+    border: none;
+
+}
+
+input[type="password"]
+{
+    width: 80%;
+    height: 35px;
+    border-radius: 50px;
+    text-align: center;
+    border: none;
+
+}
+
+input[type="password"]
+{
+    width: 80%;
+    height: 35px;
+    border-radius: 50px;
+    text-align: center;
+    border: none;
+
+}
+.Signup label
+{
+color: yellow;
+font-weight: bold;
+
+}
